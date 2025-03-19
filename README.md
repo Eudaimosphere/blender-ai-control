@@ -84,9 +84,9 @@ obj.scale = (2, 2, 2)
 
 ### 学术研究
 
-1. [Text2Shape: 将自然语言描述转换为3D形状](https://arxiv.org/abs/2102.03981) - 探索将文本描述转换为3D模型的研究
-2. [Text2Mesh: 文本驱动的3D网格生成](https://arxiv.org/abs/2212.06024) - 使用大型语言模型创建3D内容的方法
-3. [Blender中的AI辅助建模](https://www.blender.org/community/conference/2021/presentations/ai-powered-modeling-tools/) - Blender社区关于AI与3D建模的讨论
+1. [SceneCraft: 使用LLM智能体生成Blender 3D场景代码](https://arxiv.org/abs/2403.01248) - 研究将自然语言描述转换为可执行的Blender Python脚本，能够渲染包含多达数百个3D资产的复杂场景
+2. [L3GO: 使用链式3D思维的语言智能体生成非常规物体](https://arxiv.org/abs/2402.09052) - 探索使用LLM推理基于部件的3D网格生成方法，特别适用于当前扩散模型难以处理的非常规对象
+3. [BlenderAlchemy: 使用视觉-语言模型编辑3D图形](https://arxiv.org/abs/2404.17672) - 介绍一个在Blender 3D设计环境中使用视觉-语言模型迭代优化用户意图的系统
 
 ### 开源项目
 
