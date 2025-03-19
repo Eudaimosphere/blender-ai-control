@@ -45,9 +45,15 @@
 
 ## 示例指令转换
 
-| 自然语言指令 | 转换后的Python代码 |
-|------------|-------------------|
-| "创建一个红色的金属球体" | ```python
+### 示例1: 创建一个红色的金属球体
+
+**自然语言指令:**
+```
+创建一个红色的金属球体
+```
+
+**转换后的Python代码:**
+```python
 import bpy
 bpy.ops.mesh.primitive_uv_sphere_add(radius=1, location=(0, 0, 0))
 obj = bpy.context.active_object
@@ -57,13 +63,22 @@ obj.data.materials.append(mat)
 principled = mat.node_tree.nodes.get("Principled BSDF")
 principled.inputs["Base Color"].default_value = (1.0, 0.1, 0.1, 1.0)
 principled.inputs["Metallic"].default_value = 0.9
-``` |
-| "将它移到场景中心并放大两倍" | ```python
+```
+
+### 示例2: 移动和缩放对象
+
+**自然语言指令:**
+```
+将它移到场景中心并放大两倍
+```
+
+**转换后的Python代码:**
+```python
 import bpy
 obj = bpy.context.active_object
 obj.location = (0, 0, 0)
 obj.scale = (2, 2, 2)
-``` |
+```
 
 ## 未来发展方向
 
