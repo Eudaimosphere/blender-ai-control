@@ -84,21 +84,21 @@ obj.scale = (2, 2, 2)
 
 ### 学术研究
 
-1. [AI辅助3D建模：将自然语言描述转换为3D内容](https://arxiv.org/abs/2102.03981) - Text2Shape: 自然语言驱动的3D形状生成
-2. [使用大型语言模型进行交互式3D内容创建](https://arxiv.org/abs/2212.06024) - Text2Mesh: 将文本描述映射到3D模型表面属性
-3. [Blender中的自动化与人工智能](https://www.blender.org/community/conference/2021/presentations/ai-powered-modeling-tools/) - Blender社区关于AI辅助建模的讨论
+1. [Text2Shape: 将自然语言描述转换为3D形状](https://arxiv.org/abs/2102.03981) - 探索将文本描述转换为3D模型的研究
+2. [Text2Mesh: 文本驱动的3D网格生成](https://arxiv.org/abs/2212.06024) - 使用大型语言模型创建3D内容的方法
+3. [Blender中的AI辅助建模](https://www.blender.org/community/conference/2021/presentations/ai-powered-modeling-tools/) - Blender社区关于AI与3D建模的讨论
 
 ### 开源项目
 
-1. [Geometry Nodes AI](https://github.com/carson-katri/dream-textures) - 使用AI生成Blender材质和纹理的扩展
-2. [Blender-OSC](https://github.com/maybites/blender-osc) - 为Blender提供OSC协议支持，便于外部系统控制
-3. [BlenderProc](https://github.com/DLR-RM/BlenderProc) - 用于程序化生成3D数据的Blender管道
+1. [Dream Textures](https://github.com/carson-katri/dream-textures) - 将Stable Diffusion集成到Blender中的插件，支持AI生成纹理
+2. [NodeOSC](https://github.com/maybites/NodeOSC) - 为Blender提供OSC协议支持的插件，便于外部系统控制
+3. [BlenderProc](https://github.com/DLR-RM/BlenderProc) - 用于程序化生成逼真3D训练数据的Blender管道
 
-### 教程与指南
+### 教程与工具
 
-1. [使用Python自动化Blender工作流程](https://www.blendernation.com/tutorials/python-scripting-for-blender/) - 关于Blender Python API的深入教程
-2. [Blender的机器学习集成](https://www.youtube.com/watch?v=KgQN2nKZGQo) - 关于在Blender中使用机器学习的教程
-3. [数据驱动的3D建模](https://blender.stackexchange.com/questions/tagged/python-scripting) - Blender Stack Exchange上的Python脚本问题与解答
+1. [使用Python自动化Blender工作流程](https://docs.blender.org/api/current/info_overview.html) - Blender官方Python API文档
+2. [AI Render - Blender中的Stable Diffusion](https://blendermarket.com/products/ai-render) - 将AI图像生成集成到Blender渲染流程中
+3. [Geometry Nodes与AI的结合](https://blenderartists.org/t/blender-nodes-need-ai-nodes/1459011) - 关于Blender节点系统与AI集成的讨论
 
 ## 未来发展方向
 
