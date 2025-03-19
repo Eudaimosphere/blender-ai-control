@@ -80,6 +80,26 @@ obj.location = (0, 0, 0)
 obj.scale = (2, 2, 2)
 ```
 
+## 相关研究与参考链接
+
+### 学术研究
+
+1. [AI辅助3D建模：将自然语言描述转换为3D内容](https://arxiv.org/abs/2102.03981) - Text2Shape: 自然语言驱动的3D形状生成
+2. [使用大型语言模型进行交互式3D内容创建](https://arxiv.org/abs/2212.06024) - Text2Mesh: 将文本描述映射到3D模型表面属性
+3. [Blender中的自动化与人工智能](https://www.blender.org/community/conference/2021/presentations/ai-powered-modeling-tools/) - Blender社区关于AI辅助建模的讨论
+
+### 开源项目
+
+1. [Geometry Nodes AI](https://github.com/carson-katri/dream-textures) - 使用AI生成Blender材质和纹理的扩展
+2. [Blender-OSC](https://github.com/maybites/blender-osc) - 为Blender提供OSC协议支持，便于外部系统控制
+3. [BlenderProc](https://github.com/DLR-RM/BlenderProc) - 用于程序化生成3D数据的Blender管道
+
+### 教程与指南
+
+1. [使用Python自动化Blender工作流程](https://www.blendernation.com/tutorials/python-scripting-for-blender/) - 关于Blender Python API的深入教程
+2. [Blender的机器学习集成](https://www.youtube.com/watch?v=KgQN2nKZGQo) - 关于在Blender中使用机器学习的教程
+3. [数据驱动的3D建模](https://blender.stackexchange.com/questions/tagged/python-scripting) - Blender Stack Exchange上的Python脚本问题与解答
+
 ## 未来发展方向
 
 1. **多模态输入**：结合草图和语音输入增强指令精度
@@ -107,7 +127,14 @@ obj.scale = (2, 2, 2)
 
 ## 许可
 
-该研究项目在MIT许可下发布。
+该研究项目在 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 许可下发布。这意味着：
+
+- 您可以自由分享和改编本项目内容用于非商业目的
+- 您必须给出适当的署名
+- 如果您改编本项目内容，您必须以相同的许可分发您的贡献
+- **商业使用需获得明确许可并可能需要支付费用**
+
+要获取商业使用许可，请联系项目维护者。
 
 ## 联系方式
 
